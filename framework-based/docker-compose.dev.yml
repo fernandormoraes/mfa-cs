@@ -1,0 +1,21 @@
+version: '3'
+services:
+  main:
+    build: .
+    ports:
+     - "8080:8080"
+
+  dashboard:
+    build: ./dashboard
+    ports:
+     - "8081:8081"
+
+  inventory:
+    build: ./inventory
+    ports:
+     - "8082:8082"
+
+  product:
+    build: ./product
+    ports:
+     - "8083:8083"
