@@ -1,0 +1,21 @@
+version: '3'
+services:
+  main:
+    build: ./container
+    ports:
+     - "3000:3000"
+
+  dashboard:
+    build: ./dashboard
+    ports:
+     - "3001:3001"
+
+  inventory:
+    build: ./inventory
+    ports:
+     - "3002:3002"
+
+  product:
+    build: ./product
+    ports:
+     - "3003:3003"
