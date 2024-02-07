@@ -1,0 +1,4 @@
+enum Movement {
+  mIn,
+  mOut;
+}
