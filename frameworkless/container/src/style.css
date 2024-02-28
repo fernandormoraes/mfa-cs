@@ -1,0 +1,17 @@
+.navbar {
+    .container {
+        display: block;
+    }
+}
+
+#container {
+    display: block;
+}
+
+#footer {
+    margin-top: auto;
+}
+
+footer {
+    margin-top: auto;
+}
